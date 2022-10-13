@@ -11,7 +11,7 @@ body {
     background: #ffffff;
 }
 
-.hero {
+.mallard {
     background: #4299f0;
     max-width: 1280px;
     margin: 50px auto 20px;
@@ -25,7 +25,7 @@ body {
     gap: 30px;
 }
 
-.hero .hero-left {
+.mallard .mallard-left {
     width: 500px;
 
     display: flex;
@@ -34,21 +34,21 @@ body {
     gap: 20px;
 }
 
-.hero-left .hero-text {
+.mallard-left .mallard-text {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: justify;
 }
 
-.hero-left .hero-btn {
+.mallard-left .mallard-btn {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 20px;
 }
 
-.hero-btn button {
+.mallard-btn button {
     background: rgb(3, 87, 254);
     padding: 10px 20px;
     border: none;
@@ -63,23 +63,23 @@ body {
     cursor: pointer;
 }
 
-.hero-btn a {
+.mallard-btn a {
     text-decoration: none;
     color: #000;
 }
 
-.hero-btn a span {
+.mallard-btn a span {
     margin-left: 10px;
 }
 
-.hero-left .hero-social {
+.mallard-left .mallard-social {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
 
-.hero-social a {
+.mallard-social a {
     background: #000;
     width: 30px;
     height: 30px;
@@ -92,7 +92,7 @@ body {
     justify-content: center;
 }
 
-.hero .profile-card {
+.mallard .profile-card {
     width: 400px;
     border-radius: 10px;
     box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.75);
